@@ -73,7 +73,7 @@ def make_env(patient_dir):
 if __name__ == "__main__":
     multiprocessing.freeze_support()
 
-    base_dir = r"C:\Users\user\OneDrive\Documents\RESEARCH PROJECT FINAL\10_patients"
+    base_dir = r"add file here"
     patient_dirs = get_valid_patient_dirs(base_dir)
 
     random.shuffle(patient_dirs)
